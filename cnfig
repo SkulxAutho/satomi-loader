@@ -2898,7 +2898,7 @@ Elements:CreateToggle(SettingsScroll, "Re-execute when rejoin", currentStatus, f
     
     if v == true then
         -- Ito yung command na ise-save ni Delta para i-run paglipat ng server
-        local autoRunScript = [[loadstring(game:HttpGet("IPASTE_YUNG_RAW_LINK_DITO"))()]]
+        local autoRunScript = [[loadstring(game:HttpGet("https://raw.githubusercontent.com/SkulxAutho/satomi-loader/refs/heads/main/cnfig"))()]]
         
         if queue_on_teleport then
             queue_on_teleport(autoRunScript)
